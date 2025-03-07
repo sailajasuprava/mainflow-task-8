@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const taskRouter = require("./routes/taskRoute");
 const { connectDB } = require("./config/db");
 
